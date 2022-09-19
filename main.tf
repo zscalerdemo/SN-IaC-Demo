@@ -32,7 +32,7 @@ resource "aws_instance" "card-processing-vm" {
 }
 
 
-##### IAM role to assign to EC2 instance(s), to demonstrate CIEM capabilitie SN 19 Sep 2022:
+##### IAM role to assign to EC2 instance(s), to demonstrate CIEM capabilitie SN Sep 2022:
 
 resource "aws_iam_role" "machine-storage-access" {
   name = "machine-storage-access"
